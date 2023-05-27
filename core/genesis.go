@@ -252,8 +252,8 @@ func (g *Genesis) configOrDefault(ghash common.Hash) *params.ChainConfig {
 		return g.Config
 	case ghash == params.MainnetGenesisHash:
 		return params.MainnetChainConfig
-	case ghash == params.BSCGenesisHash:
-		return params.BSCChainConfig
+	case ghash == params.BBEARSSCGenesisHash:
+		return params.BBEARSSCChainConfig
 	case ghash == params.ChapelGenesisHash:
 		return params.ChapelChainConfig
 	case ghash == params.RialtoGenesisHash:
